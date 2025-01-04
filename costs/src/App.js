@@ -4,6 +4,7 @@ import Home from './components/pages/Home';
 import Company from './components/pages/Company';
 import Contact from './components/pages/Contact';
 import NewProject from './components/pages/NewProject';
+import Container from './components/layout/Container';
 
 function App() {
   return (
@@ -16,12 +17,16 @@ function App() {
           <Link to="/newproject">Novo Projeto</Link>
         </nav>
       </div>
+      
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/company" element={<Company />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/newproject" element={<NewProject />} />
+        <Route element={<Container customClass="min-height" />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/company" element={<Company />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/newproject" element={<NewProject />} />
+        </Route>
       </Routes>
+      
       <p>Footer</p>
     </Router>
   );
