@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #222;
+    color: white;
+    padding: 1em; /* Mantém o padding */
+    height: 80px; /* Define uma altura fixa para a navbar */
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    justify-content: space-between; /* Espaça o logo e os links */
+}
+
+.navbar img {
+    max-height: 40px; /* Reduz o tamanho máximo da logo */
+    height: auto; /* Mantém a proporção da logo */
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* Espaçamento entre os links */
+    margin: 0; /* Remove qualquer margem padrão */
+    padding: 0; /* Remove qualquer padding padrão */
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem; /* Reduz o tamanho do texto dos links */
+}
+
+.navLinks a:hover {
+    color: #ffbb33;
+}

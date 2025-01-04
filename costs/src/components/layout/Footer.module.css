@@ -1,0 +1,40 @@
+.footer {
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    height: 10vh; /* Altura máxima de 10% da tela */
+    display: flex; /* Flexbox para alinhamento */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 0 10px; /* Espaçamento interno nas laterais */
+}
+
+.container {
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Alinha elementos em coluna */
+    align-items: center; /* Centraliza elementos */
+    gap: 10px; /* Espaçamento entre texto e ícones */
+    font-size: 0.8rem; /* Tamanho menor do texto */
+}
+
+.socialLinks {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Deixa os ícones em linha */
+    gap: 10px; /* Espaçamento entre os ícones */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+}
+
+.socialLinks a {
+    color: white; /* Cor dos ícones */
+    font-size: 1rem; /* Reduz o tamanho dos ícones */
+    transition: color 0.3s; /* Animação para hover */
+}
+
+.socialLinks a:hover {
+    color: #ffbb33; /* Cor ao passar o mouse */
+}
+
+p {
+    margin: 0; /* Remove margens padrão do parágrafo */
+    font-size: 0.8rem; /* Reduz o tamanho do texto */
+}
