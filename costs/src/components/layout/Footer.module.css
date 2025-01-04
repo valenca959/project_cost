@@ -1,40 +1,40 @@
 .footer {
-    background-color: #333; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    height: 10vh; /* Altura máxima de 10% da tela */
-    display: flex; /* Flexbox para alinhamento */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    padding: 0 10px; /* Espaçamento interno nas laterais */
+    background-color: #222;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
 }
 
 .container {
-    display: flex; /* Layout flexível */
-    flex-direction: column; /* Alinha elementos em coluna */
-    align-items: center; /* Centraliza elementos */
-    gap: 10px; /* Espaçamento entre texto e ícones */
-    font-size: 0.8rem; /* Tamanho menor do texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8rem;
 }
 
 .socialLinks {
-    list-style: none; /* Remove os marcadores da lista */
-    display: flex; /* Deixa os ícones em linha */
-    gap: 10px; /* Espaçamento entre os ícones */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove padding padrão */
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .socialLinks a {
-    color: white; /* Cor dos ícones */
-    font-size: 1rem; /* Reduz o tamanho dos ícones */
-    transition: color 0.3s; /* Animação para hover */
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
 }
 
 .socialLinks a:hover {
-    color: #ffbb33; /* Cor ao passar o mouse */
+    color: #ffbb33;
 }
 
 p {
-    margin: 0; /* Remove margens padrão do parágrafo */
-    font-size: 0.8rem; /* Reduz o tamanho do texto */
+    margin: 0;
+    font-size: 0.8rem;
 }

@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaGithub, FaYoutube } from 'react-icons/fa';
 import styles from './Footer.module.css';
 
 function Footer() {
@@ -18,8 +18,8 @@ function Footer() {
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                            <FaTwitter />
+                        <a href="https://github.com/valenca959" target="_blank" rel="noopener noreferrer">
+                            <FaGithub />
                         </a>
                     </li>
                     <li>
