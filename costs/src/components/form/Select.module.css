@@ -1,0 +1,66 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+    margin-bottom: 1.5em;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .form_control label {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+  }
+  
+  .form_control select {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    margin-top: 0.5em;
+    text-align: center;
+  }
+  
+  .form_control select:focus {
+    border-color: #ffbb33;
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .form_control {
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  
+    .form_control label {
+      font-size: 1rem;
+    }
+  
+    .form_control select {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form_control {
+      padding: 0 10px;
+    }
+  
+    .form_control label {
+      font-size: 0.9rem;
+    }
+  
+    .form_control select {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
