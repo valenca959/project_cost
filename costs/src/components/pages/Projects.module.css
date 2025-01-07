@@ -1,0 +1,48 @@
+/* Estilo para o container principal do componente Projects */
+.Projects {
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o container do título e botão */
+.tittle_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+/* Título da seção */
+.tittle_container h1 {
+    font-size: 2rem;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+/* Ajuste para o conteúdo abaixo do título */
+.Container {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Mensagem (apenas estilização global para harmonia com o restante do layout) */
+.Message {
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}

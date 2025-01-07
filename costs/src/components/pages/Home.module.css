@@ -54,24 +54,23 @@
     }
 
     .text {
-        max-width: 100%; /* A seção de texto ocupa toda a largura */
-        padding-right: 0; /* Remove o padding direito */
+        max-width: 100%;
+        padding-right: 0;
     }
 
     .image {
-        max-width: 100%; /* A imagem ocupa toda a largura disponível */
+        max-width: 100%;
         margin-top: 20px;
     }
 
     .text h1 {
-        font-size: 2rem; /* Reduz o tamanho do título para telas menores */
+        font-size: 2rem;
     }
 
     .text p {
-        font-size: 1rem; /* Reduz o tamanho do texto */
+        font-size: 1rem;
     }
 
-    /* Ajuste no botão (caso esteja na home) */
     .newProjectBtn {
         padding: 10px 25px;
         font-size: 1rem;

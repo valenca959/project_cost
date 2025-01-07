@@ -1,0 +1,143 @@
+.ProjectCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: transform 0.3s ease;
+}
+
+.ProjectCard:hover {
+    transform: translateY(-5px);
+}
+
+.project_info {
+    margin-right: 20px;
+    flex: 1;
+}
+
+.project_info h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.project_info p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.project_info strong {
+    color: #333;
+}
+
+.ProjectCard .project_actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.ProjectCard a,
+.ProjectCard button {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 55%;
+    margin: 5px auto;
+}
+
+.ProjectCard a {
+    color: #007bff;
+    background-color: transparent;
+    border: 1px solid #007bff;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.ProjectCard a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.ProjectCard button {
+    background-color: #f75c51;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.ProjectCard button:hover {
+    background-color: #ac2121;
+}
+
+.ProjectCard button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .ProjectCard {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 15px;
+    }
+
+    .project_info {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .project_info h3 {
+        font-size: 1.25rem;
+    }
+
+    .project_info p {
+        font-size: 0.9rem;
+    }
+
+    .ProjectCard .project_actions {
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .ProjectCard a,
+    .ProjectCard button {
+        width: 45%;
+        font-size: 0.9rem;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ProjectCard {
+        padding: 10px;
+    }
+
+    .project_info h3 {
+        font-size: 1rem;
+    }
+
+    .project_info p {
+        font-size: 0.8rem;
+    }
+
+    .ProjectCard a,
+    .ProjectCard button {
+        font-size: 0.8rem;
+    }
+}
