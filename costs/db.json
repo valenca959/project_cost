@@ -112,6 +112,15 @@
       "category_name": "Desenvolvimento",
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "d0f6",
+      "name": "lucas",
+      "budget": "12",
+      "category_id": "2",
+      "category_name": "Design",
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
