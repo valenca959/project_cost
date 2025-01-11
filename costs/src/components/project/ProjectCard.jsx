@@ -18,7 +18,7 @@ function ProjectCard({ id, name, budget, category_name, handleRemove }) {
                 <p><strong>Orçamento:</strong> R$ {budget}</p>
             </div>
             <div>
-                <Link to="/">
+                <Link to={`/project/${id}`}>
                     <BsPencil />Editar
                 </Link>
                 <button onClick={remove}>

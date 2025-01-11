@@ -1,0 +1,70 @@
+.project_details {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  .details_div {
+    margin-bottom: 20px;
+  }
+  
+  .details_div h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .details_div p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .details_div p span {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .form {
+    margin-top: 10px;
+  }
+  
+  .service_form_container {
+    margin-top: 20px;
+  }
+  
+  .service_form_container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .start {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .start > * {
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+  }
+  

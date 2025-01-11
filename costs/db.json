@@ -1,18 +1,25 @@
 {
   "projects": [
     {
-      "id": "4e99",
-      "name": "primeiro projeto",
-      "budget": "80",
+      "id": "de96",
+      "name": "teste100",
+      "budget": "900",
       "category_id": "3",
       "category_name": "Planejamento",
-      "cost": 0,
-      "services": []
+      "cost": 500,
+      "services": [
+        {
+          "name": "testando",
+          "cost": "500",
+          "description": "ess",
+          "id": "eba6b4f1-f433-4923-9b4c-d61577f572b8"
+        }
+      ]
     },
     {
-      "id": "de96",
-      "name": "teste",
-      "budget": "900",
+      "id": "b066",
+      "name": "projeto meta",
+      "budget": "800",
       "category_id": "3",
       "category_name": "Planejamento",
       "cost": 0,
