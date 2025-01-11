@@ -6,13 +6,13 @@
       "budget": "900",
       "category_id": "3",
       "category_name": "Planejamento",
-      "cost": 500,
+      "cost": 100,
       "services": [
         {
-          "name": "testando",
-          "cost": "500",
-          "description": "ess",
-          "id": "eba6b4f1-f433-4923-9b4c-d61577f572b8"
+          "name": "fdgfg",
+          "cost": "100",
+          "description": "fdfd",
+          "id": "86773285-24ac-47e0-9dbb-0c3fc8d82a70"
         }
       ]
     },
